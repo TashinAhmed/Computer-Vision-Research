@@ -1,0 +1,33 @@
+1.	initiate venv from given txt file (VIRTUAL ENVRIONMENT ENABLE.txt)
+
+2.	install libraries from requirements.txt command, pip install -r requirement.txt
+
+3.	images folder have the images which we will going to check for annotating purpose.
+
+4.	train.csv have the labeling of images folders images. 
+
+5.	(*** FOLLOW THE FORMATS of images & train.csv ***)
+
+6.	run FRCNN.ipynb.
+
+7.	annotate.txt file will be generated at the master folder.
+
+8.	paste annotate.txt, train.csv, (images rename it as train_images), test_images inside keras-frcnn folder.
+
+9.	run command, python train_frcnn.py -o simple -p annotate.txt
+
+10.	remove the comment from the last line of this file:
+ 		cv2.imwrite(‘./results_imgs/{}.png’.format(idx),img)
+	Add comments on the second last and third last line of this file:
+ 		# cv2.imshow(‘img’, img)
+ 		# cv2.waitKey(0)
+
+11.	run command, python test_frcnn.py -p test_images
+
+
+for more, https://medium.com/analytics-vidhya/a-practical-implementation-of-the-faster-r-cnn-algorithm-for-object-detection-part-2-with-cac45dada619
+
+
+
+TWEAKS :
+	epochs 500 atleast for better result. (line 146)

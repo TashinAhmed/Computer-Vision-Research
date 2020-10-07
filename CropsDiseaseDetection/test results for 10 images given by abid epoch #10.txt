@@ -1,0 +1,41 @@
+Using TensorFlow backend.
+{0: 'leafblast', 1: 'bg'}
+WARNING:tensorflow:From /home/salazar/.local/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/salazar/Documents/Jupyter Notebook/Rice Faster R CNN /keras-frcnn/venv/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py:1064: calling reduce_prod_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+Loading weights from ./model_frcnn.hdf5
+2019-06-17 12:07:01.361170: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-17 12:07:01.382893: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3599980000 Hz
+2019-06-17 12:07:01.383207: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x8abb360 executing computations on platform Host. Devices:
+2019-06-17 12:07:01.383236: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+1.jpg
+Elapsed time = 7.704359531402588
+[]
+2.jpg
+Elapsed time = 6.827223539352417
+[]
+3.jpg
+Elapsed time = 6.8083250522613525
+[]
+4.jpg
+Elapsed time = 6.8256494998931885
+[]
+5.jpg
+Elapsed time = 6.957345485687256
+[]
+6.jpg
+Elapsed time = 7.027309894561768
+[]
+7.jpg
+Elapsed time = 6.996690511703491
+[]
+8.jpg
+Elapsed time = 7.015172481536865
+[]
+9.jpg
+Elapsed time = 6.986356258392334
+[]
+
